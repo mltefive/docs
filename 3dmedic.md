@@ -166,9 +166,9 @@ VF	Videofluorography	Retired
 XA	X-Ray Angiography	 
 XC	External-camera Photography	 
 
-ПО первичного просмотра DICOM
+## ПО первичного просмотра DICOM
 
-Каждое направление медицины имеет свою специфику и решает свои задачи.
+### Каждое направление медицины имеет свою специфику и решает свои задачи.
 
 Стоматология
 ![Стоматология](https://implastation.com/fbimage/impl.png)
