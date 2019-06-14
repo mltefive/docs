@@ -1,0 +1,149 @@
+Черновик
+
+## Дано:
+срок 2-3 месяца
+ТЗ на программное обеспечение в сфере медицины обработки и анализа рентгенограмм
+
+Требования: 
+навыки работы по созданию,
+корректировки 3D моделей,
+формированию stl файлов,
+определения размеров (линейных и угловых)
+  на изображениях посредством экранной линейки и других инструментов.
+
+удаленная работа - ТЗ.
+
+
+##
+Решение
+
+### Техническое задание
+
+на программное обеспечение
+для обработки и анализа медицинских файлов формата обмена данных (DICOM), подготовки 3D модели для печати
+
+#### Требуется
+
+1 Просмотр и обработка файлов DICOM
+1.2 формирование 3D модели stl (Desktop)
+1.3 для дальнейшей печати (3D Printer)
+1.4 или просмотра в браузере через технологию WebGL (Threejs, Unity, Blender) или Flash (WEB)
+1.5 очистка по плотности и по выделенной площади (Desktop)
+
+Требования к оборудованию:
+Как правило существует два типа программного обеспечения: веб-приложение или desktop-приложение.
+
+Так как медицинские файлы данных как правило большого размера,
+веб-приложение не всегда способно обработать большой поток информации
+- не у каждого пользователя хороший современый компьютер с графическим ускорителем.
+А полностью переложить финкционал нагрузки на серверную сторону не представляется возможным.
+
+Поэтому первичная обработка должна производиться desktop-приложением, с помощью оператора (человеком) а именно:
+ - импорт DICOM
+ - очистка от "артифактов" и лишней информации,
+ - очистка по плотности и по выделенной площади,
+ - расскраска слоев плотности по цвету,
+ - экспорт 3D модели
+
+И только после получения очищенной 3D модели её можно
+ - распечатывать
+ - производить анализ (геометрия и свойства) и просмотр модели в веб-браузере
+ 
+На сегоднишний день DICOM является стандартом для обмена различными медицинскими данными, включая КТ - компьютерную томографию и радиографию
+Полный перечень форматов представлен ниже
+
+Modality
+A DICOM data object consists of a number of attributes, including items such as name, ID, etc., and also one special attribute containing the image pixel data.
+One of attributes - DICOM modality, that represents DICOM file type. In addition, each attribute also has a Value Multiplicity to indicate the number of data elements contained in the attribute.
+
+DICOM Modality
+
+Value	Description
+AR	Autorefraction	 
+AS	Angioscopy	Retired
+ASMT	Content Assessment Results	 
+AU	Audio	 
+BDUS	Bone Densitometry (ultrasound)	 
+BI	Biomagnetic imaging	 
+BMD	Bone Densitometry (X-Ray)	 
+CD	Color flow Doppler	Retired
+CF	Cinefluorography	Retired
+CP	Colposcopy	Retired
+CR	Computed Radiography	 
+CS	Cystoscopy	Retired
+CT	Computed Tomography	 
+DD	Duplex Doppler	Retired
+DF	Digital fluoroscopy	Retired
+DG	Diaphanography	 
+DM	Digital microscopy	Retired
+DOC	Document
+DS	Digital Subtraction Angiography	Retired
+DX	Digital Radiography	 
+EC	Echocardiography	Retired
+ECG	Electrocardiography	 
+EPS	Cardiac Electrophysiology	 
+ES	Endoscopy	 
+FA	Fluorescein angiography	Retired
+FID	Fiducials	 
+FS	Fundoscopy	Retired
+GM	General Microscopy	 
+ 	 
+Value	Description
+HC	Hard Copy	 
+HD	Hemodynamic Waveform	 
+IO	Intra-Oral Radiography	 
+IOL	Intraocular Lens Data	 
+IVOCT	Intravascular Optical Coherence Tomography	 
+IVUS	Intravascular Ultrasound	 
+KER	Keratometry	 
+KO	Key Object Selection	 
+LEN	Lensometry	 
+LP	Laparoscopy	Retired
+LS	Laser surface scan	 
+MA	Magnetic resonance angiography	Retired
+MG	Mammography	 
+MR	Magnetic Resonance	 
+MS	Magnetic resonance spectroscopy	Retired
+NM	Nuclear Medicine	 
+OAM	Ophthalmic Axial Measurements	
+OCT	Optical Coherence Tomography (non-Ophthalmic)	 
+OP	Ophthalmic Photography	 
+OPM	Ophthalmic Mapping	 
+OPR	Ophthalmic Refraction	Retired
+OPT	Ophthalmic Tomography	 
+OPV	Ophthalmic Visual Field	 
+OSS	Optical Surface Scan	 
+OT	Other	 
+ 	 
+Value	Description
+PLAN	Plan	 
+PR	Presentation State	 
+PT	Positron emission tomography (PET)	 
+PX	Panoramic X-Ray	 
+REG	Registration	 
+RESP	Respiratory Waveform	 
+RF	Radio Fluoroscopy	 
+RG	Radiographic imaging (conventional film/screen)	 
+RTDOSE	Radiotherapy Dose	 
+RTIMAGE	Radiotherapy Image	 
+RTPLAN	Radiotherapy Plan	 
+RTRECORD	RT Treatment Record	 
+RTSTRUCT	Radiotherapy Structure Set	 
+RWV	Real World Value Map	 
+SEG	Segmentation	 
+SM	Slide Microscopy	 
+SMR	Stereometric Relationship	 
+SR	SR Document	 
+SRF	Subjective Refraction	 
+ST	Single-photon emission computed tomography (SPECT)	Retired
+STAIN	Automated Slide Stainer	 
+TG	Thermography	 
+US	Ultrasound	 
+VA	Visual Acuity	 
+VF	Videofluorography	Retired
+XA	X-Ray Angiography	 
+XC	External-camera Photography	 
+
+ПО первичного просмотра DICOM
+
+[https://implastation.com/fbimage/impl.png]
