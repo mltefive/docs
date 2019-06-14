@@ -170,7 +170,9 @@ XC	External-camera Photography
 
 Каждое направление медицины имеет свою специфику
 
-Стоматология
-
 ![Стоматология](https://implastation.com/fbimage/impl.png)
+
+![2](https://images.idoimaging.com/images/116/osirix_7.jpg)
+
+![3](https://o.aolcdn.com/images/dims?thumbnail=980%2C653&quality=80&image_uri=https%3A%2F%2Fs.blogcdn.com%2Fslideshows%2Fimages%2Fslides%2F718%2F463%2F7%2FS7184637%2Fslug%2Fl%2F13-full-body-3d-volume-rendering-4-1.jpg&client=amp-blogside-v2&signature=4282d0a382f4d3b20fccdd64be6e388ca003d24e)
 
