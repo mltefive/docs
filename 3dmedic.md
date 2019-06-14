@@ -168,4 +168,9 @@ XC	External-camera Photography
 
 ПО первичного просмотра DICOM
 
-[https://implastation.com/fbimage/impl.png]
+Каждое направление медицины имеет свою специфику
+
+Стоматология
+
+![Стоматология](https://implastation.com/fbimage/impl.png)
+
