@@ -1,9 +1,11 @@
 ### 3Dmedic
 
-[Demo](http://194.87.102.175/3dmedic/)
-
+ - Рабочий Web прототип [Demo](http://194.87.102.175/3dmedic/)
+ - Ковертация в 3D [Сервер Ubuntu](STL)
+ - Dicom сервер хранения и обмена данными [Сервер Linux]()
+ - Основной Сервер-сайт: регистрация, оплата, личный кабинет
+ 
 ### Черновик
-
 
 ![vesalius3d](https://raw.githubusercontent.com/mltefive/docs/master/vesalius3d.png)
 
