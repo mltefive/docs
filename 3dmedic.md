@@ -192,7 +192,7 @@ XC	External-camera Photography
 
 Поэтому необходимы пояснения как должен применяться инструмент, для какой задачи.
 
-### Полезные ссылки
+### Полезные ссылки https://github.com/topics/dicom
 
  - docs:
    [DICOM Standard Browser](https://dicom.innolitics.com/ciods/ct-image/clinical-trial-subject)
@@ -202,7 +202,17 @@ XC	External-camera Photography
  - webviewers:
  
  https://github.com/ivmartel/dwv
- 
+ https://github.com/cornerstonejs/cornerstone
+ https://github.com/FNNDSC/ami
+ http://jaanga.github.io/brainofrichard/
+ https://github.com/OHIF/Viewers
+
+---
+
+ - viewers:
+
+ https://github.com/pixmeo/osirix
+
 ---
  
  - extract-images:
@@ -219,6 +229,8 @@ https://github.com/dave3d/dicom2stl
 ---
 
  - DICOM parsers
+ 
+ https://github.com/MITK/MITK
  
  https://github.com/dicom/ruby-dicom
  
