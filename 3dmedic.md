@@ -1,9 +1,9 @@
 ### 3Dmedic
 
  - Техническое задание [ТЗ](https://mltefive.github.io/docs/%D1%82%D0%B7.html)
- - Необходимо предварительно надо скачать пример [DICOM файлы](http://194.87.102.175/3dmedic/lukas_3d_dicom.zip), разархивировать их
- - Рабочий Web прототип - [Demo](http://194.87.102.175/3dmedic/) загрузить файлы Dicom или директорию (много файлов не загружать - зависнет)
- - Ковертация в 3D [пример](http://45.11.27.40/demo2.stl) (в работе, рабочий пример)
+ - Предварительно необходимо скачать пример [DICOM файлы](http://194.87.102.175/3dmedic/lukas_3d_dicom.zip), разархивировать их
+ - Открыть рабочий Web прототип - [Demo](http://194.87.102.175/3dmedic/) загрузить файлы Dicom или директорию (много файлов не загружать - зависнет)
+ - Ковертация в 3D [пример](http://45.11.27.40/demo2.stl) (рабочий пример, можно открыть 3D-просмотр на платформе Windows 10 )
  - Dicom сервер хранения и обмена данными [Сервер Linux]() (в работе)
  - Основной Сервер-сайт: регистрация, оплата, личный кабинет (в работе)
  
@@ -112,8 +112,6 @@ FA	Fluorescein angiography	Retired
 FID	Fiducials	 
 FS	Fundoscopy	Retired
 GM	General Microscopy	 
- 	 
-Value	Description
 HC	Hard Copy	 
 HD	Hemodynamic Waveform	 
 IO	Intra-Oral Radiography	 
@@ -139,8 +137,6 @@ OPT	Ophthalmic Tomography
 OPV	Ophthalmic Visual Field	 
 OSS	Optical Surface Scan	 
 OT	Other	 
- 	 
-Value	Description
 PLAN	Plan	 
 PR	Presentation State	 
 PT	Positron emission tomography (PET)	 
