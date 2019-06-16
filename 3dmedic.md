@@ -1,8 +1,8 @@
 ### 3Dmedic
 
  - Техническое задание [ТЗ](https://mltefive.github.io/docs/%D1%82%D0%B7.html)
- - Предварительно необходимо скачать пример [DICOM файлы](http://194.87.102.175/3dmedic/lukas_3d_dicom.zip), разархивировать их
  - Открыть рабочий Web прототип - [Demo](http://194.87.102.175/3dmedic/) загрузить файлы Dicom или директорию (много файлов не загружать - зависнет)
+ - Предварительно необходимо скачать пример [DICOM файлы](http://194.87.102.175/3dmedic/lukas_3d_dicom.zip), разархивировать их
  - Ковертация в 3D [пример](http://45.11.27.40/2.stl) (рабочий пример, можно открыть 3D-просмотр на платформе Windows 10 )
  - Dicom сервер хранения и обмена данными [Сервер Linux]() (в работе)
  - Основной Сервер-сайт: регистрация, оплата, личный кабинет (в работе)
@@ -230,6 +230,8 @@ XC	External-camera Photography
 
 https://github.com/dave3d/dicom2stl
 
+https://github.com/innolitics/dicom-numpy
+
 ---
 
  - DICOM parsers
@@ -240,5 +242,5 @@ https://github.com/dave3d/dicom2stl
  
  https://github.com/suyashkumar/dicom
   
- 
+ https://github.com/dcmjs-org/dcmjs
  
