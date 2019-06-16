@@ -213,6 +213,10 @@ XC	External-camera Photography
 
  https://github.com/pixmeo/osirix
 
+ https://github.com/nroduit/Weasis
+ 
+ https://github.com/starviewer-medical/starviewer
+ 
 ---
  
  - extract-images:
