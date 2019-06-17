@@ -229,6 +229,10 @@ XC	External-camera Photography
 dcmtk/bionic,now 3.6.2-3build3 amd64 [installed,automatic]
   OFFIS DICOM toolkit command line utilities
 
+https://support.dcmtk.org/docs/dcmj2pnm.html
+
+http://xrays.uniito.ru/katieghorii/dokumientatsiia/stati/dicom-landshaft-vybor-pravilnogo-sdk
+
  https://github.com/danishm/mritopng
 
  https://github.com/suyashkumar/dicom
