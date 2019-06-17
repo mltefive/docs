@@ -195,16 +195,21 @@ XC	External-camera Photography
 ### Полезные ссылки https://github.com/topics/dicom
 
  - docs:
-   [DICOM Standard Browser](https://dicom.innolitics.com/ciods/ct-image/clinical-trial-subject)
+
+ [DICOM Standard Browser](https://dicom.innolitics.com/ciods/ct-image/clinical-trial-subject)
 
 ---
 
  - webviewers:
  
  https://github.com/ivmartel/dwv
+ 
  https://github.com/cornerstonejs/cornerstone
+ 
  https://github.com/FNNDSC/ami
+ 
  http://jaanga.github.io/brainofrichard/
+ 
  https://github.com/OHIF/Viewers
 
 ---
@@ -220,17 +225,21 @@ XC	External-camera Photography
 ---
  
  - extract-images:
- 
+
+dcmtk/bionic,now 3.6.2-3build3 amd64 [installed,automatic]
+  OFFIS DICOM toolkit command line utilities
+
  https://github.com/danishm/mritopng
+
  https://github.com/suyashkumar/dicom
  
 ---
 
  - 3d transform
 
-https://github.com/dave3d/dicom2stl
+ https://github.com/dave3d/dicom2stl
 
-https://github.com/innolitics/dicom-numpy
+ https://github.com/innolitics/dicom-numpy
 
 ---
 
