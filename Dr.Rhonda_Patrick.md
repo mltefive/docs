@@ -2,7 +2,7 @@
 
 https://fastlifehacks.com/dr-rhonda-patrick-diet-and-exercise/
 
-()[https://fastlifehacks.com/wp-content/uploads/2018/05/dr-rhonda-patrick-lunch-avocado-and-salmon-roe-1-300x299.jpg]
+![](https://fastlifehacks.com/wp-content/uploads/2018/05/dr-rhonda-patrick-lunch-avocado-and-salmon-roe-1-300x299.jpg)
 
 Прежде чем мы углубимся в особенности диеты доктора Ронды Патрик, давайте посмотрим на ее основные стратегии диеты:
 
